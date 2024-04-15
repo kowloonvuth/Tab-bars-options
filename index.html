@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Tab</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    </head>
+    <body>
+        <nav class="nav">
+         <div class="nav_pointer">
+            <ul class="tabs">
+                <li data-tab-target="#basic" class="active tab"><a href="#">Basic</a></li>
+                <li data-tab-target="#platinium" class="tab"><a href="#">Platinium</a></li>
+                <li data-tab-target="#gold" class="tab"><a href="#">Gold</a></li>
+                <li data-tab-target="#diamond" class="tab"><a href="#">Diamond</a></li>
+            </ul>
+         </div>
+        </nav>
+
+        <div class="tab-content">
+            <div id="basic" data-tab-content class="active">
+                <h1>Basic Plan</h1>
+                <p>Starting from $0.99/month</p>
+            </div>
+            <div id="platinium" data-tab-content>
+                <h1>Platinium Plan</h1>
+                <p>Starting from $3.99/month</p>
+            </div>
+            <div id="gold" data-tab-content>
+                <h1>Gold Plan</h1>
+                <p>Starting from $9.99/month</p>
+            </div>
+            <div id="diamond" data-tab-content>
+                <h1>Diamond Plan</h1>
+                <p>Starting from $19.99/month</p>
+            </div>
+        </div>
+
+    </body>
+</html>
